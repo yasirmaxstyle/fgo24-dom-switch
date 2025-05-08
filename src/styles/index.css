@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+p {
+    margin: 100px 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    &>div.glass {
+        width: 100px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        background-color: #fff;
+        border: 1px solid black;
+        border-radius: 0 0 30px 30px;
+
+        &>div {
+            padding: 10px;
+        }
+    }
+}
+
+#coffee {
+    background-color: #6F4E37;
+}
+
+#tea {
+    background-color: #b86600;
+}
+
+.draggable {
+    cursor: grab;
+}
