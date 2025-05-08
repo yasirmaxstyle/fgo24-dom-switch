@@ -41,5 +41,11 @@ targets.forEach(target => {
             event.target.appendChild(dragged)
             step.textContent = 'Congratulations, you have switched TEA and COFFEE'
         }
+        if (glasscoffee.children[0] === tea) {
+            draggable.forEach(e => {
+                e.setAttribute('draggable', false)
+                e.classList.remove('draggable')
+            })
+        }
     })
 })
