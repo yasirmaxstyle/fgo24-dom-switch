@@ -1,0 +1,23 @@
+{
+  "name": "fgo24-dom-switch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasirmaxstyle/fgo24-dom-switch.git"
+  },
+  "keywords": [
+    "dom",
+    "event"
+  ],
+  "author": "yasirmaxstyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasirmaxstyle/fgo24-dom-switch/issues"
+  },
+  "homepage": "https://github.com/yasirmaxstyle/fgo24-dom-switch#readme",
+  "description": "project using dom javascript to make iluustration of switching value of variable"
+}
