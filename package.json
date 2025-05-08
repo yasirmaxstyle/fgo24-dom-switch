@@ -19,5 +19,8 @@
     "url": "https://github.com/yasirmaxstyle/fgo24-dom-switch/issues"
   },
   "homepage": "https://github.com/yasirmaxstyle/fgo24-dom-switch#readme",
-  "description": "project using dom javascript to make iluustration of switching value of variable"
+  "description": "project using dom javascript to make iluustration of switching value of variable",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
